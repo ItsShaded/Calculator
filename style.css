@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	font-family: 'Open Sans',sans-serif;
+    background-color: rgb(20, 19, 19);
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #111112;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(215, 204, 204, 0.2), 0 6px 20px 0 rgba(253, 253, 253, 0.19);
+}
+#result{
+	height: 120px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+    color: #ffffff;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keyboard{
+	height: 600px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+    color:rgb(0, 0, 0);
+}
+.number, .empty{
+	background-color: #695d5d;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+    color:rgb(53, 55, 82)
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #1c8580;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #92630b;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #b44e4e;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #4159b0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #4f2676;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+  }
+  
+  /* Fontawesome */
+  a svg,
+  span svg {
+    margin-right: 5px;
+    font-size: 1.5em;
+  }
+  
+  /* Colours */
+  a,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    text-decoration: none;
+    color: #8b66e2;
+  }
